@@ -2,8 +2,10 @@
     <div>
         <select class="ui compact dropdown" name="language" id="language" v-model="language">
             <option value="en">English</option>
-            <option selected="" value="articles">Articles</option>
-            <option value="products">Products</option>
+            <option value="es">Spanish</option>
+            <option value="ko">Korean</option>
+            <option value="ja">	Japanese</option>
+            <option value="fr">	French</option>
         </select>
         <div class="ui input">
             <input type="text" placeholder="清输入要翻译的文字" v-model="text">
